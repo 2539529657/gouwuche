@@ -1,6 +1,6 @@
 <template>
   <div id="tab-bar-item">
-    <TabBarItem path="/home" active-color="red">
+    <TabBarItem path="/home" active-color="#B7C4B3">
 
       <template v-slot:slot-img>
         <img src="@/assets/img/tabbar/Home.svg" alt="">
@@ -13,7 +13,7 @@
       </template>
 
     </TabBarItem>
-    <TabBarItem path="/shopcart" active-color="lime">
+    <TabBarItem path="/shopcart" active-color="#B7C4B3">
 
       <template v-slot:slot-img>
         <img src="@/assets/img/tabbar/shop-cart.svg" alt="">
@@ -26,7 +26,7 @@
       </template>
 
     </TabBarItem>
-    <TabBarItem path="/category" active-color="orange">
+    <TabBarItem path="/category" active-color="#B7C4B3">
 
       <template v-slot:slot-img>
         <img src="@/assets/img/tabbar/Category.svg" alt="">
@@ -39,7 +39,7 @@
       </template>
 
     </TabBarItem>
-    <TabBarItem path="/profile" active-color="lightCoral">
+    <TabBarItem path="/profile" active-color="#B7C4B3">
 
       <template v-slot:slot-img>
         <img src="@/assets/img/tabbar/Profile.svg" alt="">
@@ -78,6 +78,8 @@
     bottom: 0;
     justify-content: space-around;
     background: #f6f6f6;
+    font-weight: 600;
+    z-index: 9;
   }
 
   #tab-bar-item img {
